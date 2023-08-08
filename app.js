@@ -8,13 +8,13 @@ if (carFuel <= 0.25){ alert("Please refill the fuel in your car");
 // 2)Run this script and check whether alert messages would be displayed or not (various conditions provided).
 
 // 3)Write a program to take input marks obtained in three subjects and the total marks. Calculate the percentage and display the grade and remarks based on the percentage obtained.
-let subject1Marks = prompt("Enter marks obtained in subject 1:");
-let subject2Marks = prompt("Enter marks obtained in subject 2:");
-let subject3Marks = prompt("Enter marks obtained in subject 3:");
+let subjOne = prompt("Enter marks obtained in subject 1:");
+let subjTwo = prompt("Enter marks obtained in subject 2:");
+let subjThree = prompt("Enter marks obtained in subject 3:");
 let totalMarks = prompt("Enter total marks:");
 
-let obtainedMarks = Number(subject1Marks) + Number(subject2Marks) + Number(subject3Marks);
-let percentage = (obtainedMarks / Number(totalMarks)) * 100;
+let obtMarks = Number(subjOne) + Number(subjTwo) + Number(subjThree);
+let percentage = (obtMarks / Number(totalMarks)) * 100;
 
 let grade;
 let remarks;
